@@ -1,0 +1,710 @@
+[
+  {
+    "question": "How many pillars of Islam are there?",
+    "options": ["4", "5", "6", "7"],
+    "answer": "5"
+  },
+  {
+    "question": "How many pillars of Iman are there?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "6"
+  },
+  {
+    "question": "Who is the last Prophet of Islam?",
+    "options": ["Prophet Musa (AS)", "Prophet Isa (AS)", "Prophet Muhammad ﷺ", "Prophet Ibrahim (AS)"],
+    "answer": "Prophet Muhammad ﷺ"
+  },
+  {
+    "question": "Which city was Prophet Muhammad ﷺ born in?",
+    "options": ["Madinah", "Makkah", "Jerusalem", "Taif"],
+    "answer": "Makkah"
+  },
+  {
+    "question": "How many obligatory prayers are there each day?",
+    "options": ["3", "4", "5", "6"],
+    "answer": "5"
+  },
+  {
+    "question": "Which month do Muslims fast?",
+    "options": ["Rajab", "Sha'ban", "Ramadan", "Muharram"],
+    "answer": "Ramadan"
+  },
+  {
+    "question": "What is the Islamic declaration of faith called?",
+    "options": ["Takbir", "Shahadah", "Tasbeeh", "Dua"],
+    "answer": "Shahadah"
+  },
+  {
+    "question": "Which direction do Muslims face during prayer?",
+    "options": ["East", "West", "Kaaba", "North"],
+    "answer": "Kaaba"
+  },
+  {
+    "question": "Which angel brought the Quran to Prophet Muhammad ﷺ?",
+    "options": ["Mikail", "Israfil", "Jibreel", "Malik"],
+    "answer": "Jibreel"
+  },
+  {
+    "question": "What is the holy book of Islam?",
+    "options": ["Torah", "Bible", "Quran", "Zabur"],
+    "answer": "Quran"
+  },
+
+  {
+    "question": "How many Surahs are there in the Quran?",
+    "options": ["110", "112", "114", "116"],
+    "answer": "114"
+  },
+  {
+    "question": "How many Juz are there in the Quran?",
+    "options": ["20", "25", "30", "40"],
+    "answer": "30"
+  },
+  {
+    "question": "Which is the first Surah of the Quran?",
+    "options": ["Surah Al-Baqarah", "Surah Al-Fatihah", "Surah Al-Ikhlas", "Surah Yaseen"],
+    "answer": "Surah Al-Fatihah"
+  },
+  {
+    "question": "Which is the longest Surah in the Quran?",
+    "options": ["Surah Al-Imran", "Surah Al-Baqarah", "Surah An-Nisa", "Surah Yaseen"],
+    "answer": "Surah Al-Baqarah"
+  },
+  {
+    "question": "Which is the shortest Surah in the Quran?",
+    "options": ["Surah Al-Kawthar", "Surah Al-Asr", "Surah Al-Ikhlas", "Surah Al-Falaq"],
+    "answer": "Surah Al-Kawthar"
+  },
+  {
+    "question": "How many daily obligatory prayers are there?",
+    "options": ["3", "4", "5", "6"],
+    "answer": "5"
+  },
+  {
+    "question": "Which prayer comes before sunrise?",
+    "options": ["Dhuhr", "Asr", "Fajr", "Isha"],
+    "answer": "Fajr"
+  },
+  {
+    "question": "Which prayer is offered after sunset?",
+    "options": ["Fajr", "Dhuhr", "Maghrib", "Asr"],
+    "answer": "Maghrib"
+  },
+  {
+    "question": "How many Rak'ahs are obligatory in Fajr?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "2"
+  },
+  {
+    "question": "How many Rak'ahs are obligatory in Dhuhr?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4"
+  },
+  {
+    "question": "Which month is Hajj performed in?",
+    "options": ["Ramadan", "Muharram", "Dhul Hijjah", "Rajab"],
+    "answer": "Dhul Hijjah"
+  },
+  {
+    "question": "What is the holy city of Islam?",
+    "options": ["Jerusalem", "Madinah", "Makkah", "Taif"],
+    "answer": "Makkah"
+  },
+  {
+    "question": "What is the black cube Muslims face during prayer called?",
+    "options": ["Masjid", "Kaaba", "Maqam Ibrahim", "Minaret"],
+    "answer": "Kaaba"
+  },
+  {
+    "question": "Which Prophet built the Kaaba with his son Ismail (AS)?",
+    "options": ["Prophet Musa (AS)", "Prophet Nuh (AS)", "Prophet Ibrahim (AS)", "Prophet Isa (AS)"],
+    "answer": "Prophet Ibrahim (AS)"
+  },
+  {
+    "question": "Who was the first Prophet?",
+    "options": ["Prophet Ibrahim (AS)", "Prophet Adam (AS)", "Prophet Nuh (AS)", "Prophet Musa (AS)"],
+    "answer": "Prophet Adam (AS)"
+  },
+  {
+    "question": "Who was swallowed by a whale?",
+    "options": ["Prophet Yusuf (AS)", "Prophet Yunus (AS)", "Prophet Musa (AS)", "Prophet Dawud (AS)"],
+    "answer": "Prophet Yunus (AS)"
+  },
+  {
+    "question": "Who spoke to Allah on Mount Sinai?",
+    "options": ["Prophet Isa (AS)", "Prophet Ibrahim (AS)", "Prophet Musa (AS)", "Prophet Yusuf (AS)"],
+    "answer": "Prophet Musa (AS)"
+  },
+  {
+    "question": "Which Prophet was known for his patience during illness?",
+    "options": ["Prophet Ayyub (AS)", "Prophet Yunus (AS)", "Prophet Dawud (AS)", "Prophet Zakariya (AS)"],
+    "answer": "Prophet Ayyub (AS)"
+  },
+  {
+    "question": "Who received the Zabur?",
+    "options": ["Prophet Isa (AS)", "Prophet Dawud (AS)", "Prophet Musa (AS)", "Prophet Ibrahim (AS)"],
+    "answer": "Prophet Dawud (AS)"
+  },
+  {
+    "question": "Which angel is responsible for bringing revelation?",
+    "options": ["Israfil", "Mikail", "Jibreel", "Malik"],
+    "answer": "Jibreel"
+  },
+  {
+    "question": "How many pillars of Iman are there?",
+    "options": ["4", "5", "6", "7"],
+    "answer": "6"
+  },
+  {
+    "question": "What is given to the poor as an obligation called?",
+    "options": ["Sadaqah", "Zakat", "Hajj", "Sawm"],
+    "answer": "Zakat"
+  },
+  {
+    "question": "What is fasting in Islam called?",
+    "options": ["Salah", "Sawm", "Zakat", "Hajj"],
+    "answer": "Sawm"
+  },
+  {
+    "question": "Which night is better than a thousand months?",
+    "options": ["Laylatul Bara'ah", "Laylatul Qadr", "Night of Isra", "Eid Night"],
+    "answer": "Laylatul Qadr"
+  },
+  {
+    "question": "Which Eid comes after Ramadan?",
+    "options": ["Eid-ul-Adha", "Eid-ul-Fitr", "Ashura", "Mawlid"],
+    "answer": "Eid-ul-Fitr"
+  },
+  {
+    "question": "How many obligatory Rak'ahs are there in Asr prayer?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4"
+  },
+  {
+    "question": "How many obligatory Rak'ahs are there in Maghrib prayer?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "3"
+  },
+  {
+    "question": "How many obligatory Rak'ahs are there in Isha prayer?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4"
+  },
+  {
+    "question": "What is the call to prayer called?",
+    "options": ["Iqamah", "Adhan", "Khutbah", "Tasbeeh"],
+    "answer": "Adhan"
+  },
+  {
+    "question": "Who gives the Adhan?",
+    "options": ["Imam", "Muadhin", "Khatib", "Hafiz"],
+    "answer": "Muadhin"
+  },
+  {
+    "question": "Which Surah is known as the Heart of the Quran?",
+    "options": ["Surah Al-Baqarah", "Surah Yaseen", "Surah Al-Kahf", "Surah Ar-Rahman"],
+    "answer": "Surah Yaseen"
+  },
+  {
+    "question": "Which Surah should Muslims recite on Fridays?",
+    "options": ["Surah Al-Mulk", "Surah Al-Kahf", "Surah Al-Ikhlas", "Surah Yaseen"],
+    "answer": "Surah Al-Kahf"
+  },
+  {
+    "question": "How many angels are mentioned in the Six Pillars of Iman?",
+    "options": ["One", "Two", "All angels", "Four only"],
+    "answer": "All angels"
+  },
+  {
+    "question": "Which angel will blow the trumpet on the Day of Judgment?",
+    "options": ["Jibreel", "Mikail", "Israfil", "Malik"],
+    "answer": "Israfil"
+  },
+  {
+    "question": "Who is the keeper of Paradise according to Islamic tradition?",
+    "options": ["Ridwan", "Malik", "Jibreel", "Israfil"],
+    "answer": "Ridwan"
+  },
+  {
+    "question": "Which Prophet was thrown into the fire?",
+    "options": ["Prophet Musa (AS)", "Prophet Ibrahim (AS)", "Prophet Yusuf (AS)", "Prophet Dawud (AS)"],
+    "answer": "Prophet Ibrahim (AS)"
+  },
+  {
+    "question": "Which Prophet interpreted the king's dreams?",
+    "options": ["Prophet Yusuf (AS)", "Prophet Yunus (AS)", "Prophet Zakariya (AS)", "Prophet Isa (AS)"],
+    "answer": "Prophet Yusuf (AS)"
+  },
+  {
+    "question": "Who was the mother of Prophet Isa (AS)?",
+    "options": ["Maryam (AS)", "Aminah", "Asiyah", "Khadijah (RA)"],
+    "answer": "Maryam (AS)"
+  },
+  {
+    "question": "What is the Islamic greeting?",
+    "options": ["Marhaba", "Assalamu Alaikum", "Good Morning", "Welcome"],
+    "answer": "Assalamu Alaikum"
+  },
+  {
+    "question": "What should Muslims say after someone sneezes?",
+    "options": ["SubhanAllah", "Alhamdulillah", "Astaghfirullah", "Allahu Akbar"],
+    "answer": "Alhamdulillah"
+  },
+  {
+    "question": "What phrase means 'Allah is the Greatest'?",
+    "options": ["SubhanAllah", "Alhamdulillah", "Allahu Akbar", "Astaghfirullah"],
+    "answer": "Allahu Akbar"
+  },
+  {
+    "question": "What phrase means 'Glory be to Allah'?",
+    "options": ["SubhanAllah", "Alhamdulillah", "Allahu Akbar", "La ilaha illallah"],
+    "answer": "SubhanAllah"
+  },
+  {
+    "question": "What phrase means 'All praise is for Allah'?",
+    "options": ["Alhamdulillah", "SubhanAllah", "Astaghfirullah", "Allahu Akbar"],
+    "answer": "Alhamdulillah"
+  },
+  {
+    "question": "What phrase means 'I seek forgiveness from Allah'?",
+    "options": ["SubhanAllah", "Astaghfirullah", "Alhamdulillah", "La hawla wa la quwwata illa billah"],
+    "answer": "Astaghfirullah"
+  },
+  {
+    "question": "What is the first pillar of Islam?",
+    "options": ["Salah", "Zakat", "Shahadah", "Hajj"],
+    "answer": "Shahadah"
+  },
+  {
+    "question": "How many times is Zakat generally paid each year?",
+    "options": ["Every month", "Once a year", "Twice a year", "Every week"],
+    "answer": "Once a year"
+  },
+  {
+    "question": "Which city did Prophet Muhammad ﷺ migrate to from Makkah?",
+    "options": ["Taif", "Jerusalem", "Madinah", "Yemen"],
+    "answer": "Madinah"
+  },
+  {
+    "question": "What is the migration from Makkah to Madinah called?",
+    "options": ["Hijrah", "Mi'raj", "Badr", "Fath"],
+    "answer": "Hijrah"
+  },
+  {
+    "question": "Which is the second holiest city in Islam?",
+    "options": ["Cairo", "Jerusalem", "Madinah", "Baghdad"],
+    "answer": "Madinah"
+  },
+  {
+    "question": "Which mosque is located in Madinah?",
+    "options": ["Masjid al-Haram", "Masjid an-Nabawi", "Al-Aqsa Mosque", "Quba Mosque"],
+    "answer": "Masjid an-Nabawi"
+  },
+  {
+    "question": "How many verses (Ayat) are there in Surah Al-Fatihah?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "7"
+  },
+  {
+    "question": "Which Surah is known as the Mother of the Quran?",
+    "options": ["Surah Al-Baqarah", "Surah Al-Fatihah", "Surah Yaseen", "Surah Al-Ikhlas"],
+    "answer": "Surah Al-Fatihah"
+  },
+  {
+    "question": "Which Surah contains Ayat-ul-Kursi?",
+    "options": ["Surah Al-Imran", "Surah Al-Baqarah", "Surah An-Nisa", "Surah Al-Mulk"],
+    "answer": "Surah Al-Baqarah"
+  },
+  {
+    "question": "What is the number of Ayat-ul-Kursi?",
+    "options": ["254", "255", "256", "257"],
+    "answer": "255"
+  },
+  {
+    "question": "Which Surah begins with 'Alif Lam Meem'?",
+    "options": ["Surah Al-Baqarah", "Surah Al-Ikhlas", "Surah Al-Kawthar", "Surah Al-Falaq"],
+    "answer": "Surah Al-Baqarah"
+  },
+  {
+    "question": "Which Surah is also called 'The Heart of the Quran'?",
+    "options": ["Surah Al-Mulk", "Surah Al-Kahf", "Surah Yaseen", "Surah Ar-Rahman"],
+    "answer": "Surah Yaseen"
+  },
+  {
+    "question": "Which Surah is recommended to recite every Friday?",
+    "options": ["Surah Al-Kahf", "Surah Yaseen", "Surah Al-Waqiah", "Surah Al-Mulk"],
+    "answer": "Surah Al-Kahf"
+  },
+  {
+    "question": "Which Surah is recited for protection before sleeping?",
+    "options": ["Surah Al-Mulk", "Surah Al-Baqarah", "Surah Al-Imran", "Surah Yusuf"],
+    "answer": "Surah Al-Mulk"
+  },
+  {
+    "question": "Which Surah is known as the Bride of the Quran?",
+    "options": ["Surah Ar-Rahman", "Surah Yaseen", "Surah Maryam", "Surah Al-Mulk"],
+    "answer": "Surah Ar-Rahman"
+  },
+  {
+    "question": "Which Surah mentions the story of Prophet Yusuf (AS) in detail?",
+    "options": ["Surah Yusuf", "Surah Maryam", "Surah Hud", "Surah Ibrahim"],
+    "answer": "Surah Yusuf"
+  },
+  {
+    "question": "Which Surah is named after Maryam (AS)?",
+    "options": ["Surah An-Nisa", "Surah Maryam", "Surah Al-Ahzab", "Surah At-Tahrim"],
+    "answer": "Surah Maryam"
+  },
+  {
+    "question": "Which Surah was revealed completely at one time?",
+    "options": ["Surah Al-An'am", "Surah Al-Baqarah", "Surah An-Nisa", "Surah Yunus"],
+    "answer": "Surah Al-An'am"
+  },
+  {
+    "question": "Which Surah has two Bismillahs?",
+    "options": ["Surah At-Tawbah", "Surah An-Naml", "Surah Al-Mulk", "Surah Yaseen"],
+    "answer": "Surah An-Naml"
+  },
+  {
+    "question": "Which Surah does NOT begin with Bismillah?",
+    "options": ["Surah Al-Anfal", "Surah At-Tawbah", "Surah Al-Ma'idah", "Surah Al-Kahf"],
+    "answer": "Surah At-Tawbah"
+  },
+  {
+    "question": "Which is the last Surah of the Quran?",
+    "options": ["Surah Al-Falaq", "Surah An-Nas", "Surah Al-Ikhlas", "Surah Al-Kawthar"],
+    "answer": "Surah An-Nas"
+  },
+  {
+    "question": "Which Surah comes before Surah An-Nas?",
+    "options": ["Surah Al-Falaq", "Surah Al-Ikhlas", "Surah Al-Masad", "Surah Quraysh"],
+    "answer": "Surah Al-Falaq"
+  },
+  {
+    "question": "How many Makki and Madani Surahs are there respectively?",
+    "options": ["86 Makki and 28 Madani", "80 Makki and 34 Madani", "90 Makki and 24 Madani", "84 Makki and 30 Madani"],
+    "answer": "86 Makki and 28 Madani"
+  },
+  {
+    "question": "In which language was the Quran revealed?",
+    "options": ["Hebrew", "Arabic", "Persian", "Urdu"],
+    "answer": "Arabic"
+  },
+  {
+    "question": "During which month was the Quran first revealed?",
+    "options": ["Muharram", "Rajab", "Ramadan", "Dhul Hijjah"],
+    "answer": "Ramadan"
+  },
+  {
+    "question": "In which cave did the first revelation of the Quran take place?",
+    "options": ["Cave Thawr", "Cave Hira", "Cave Uhud", "Cave Safa"],
+    "answer": "Cave Hira"
+  },
+
+  {
+    "question": "How many times is the word 'Quran' mentioned in the Quran?",
+    "options": ["50", "70", "68", "90"],
+    "answer": "68"
+  },
+  {
+    "question": "Which Surah is named after a bee?",
+    "options": ["Surah An-Nahl", "Surah An-Naml", "Surah Al-Ankabut", "Surah Al-Fil"],
+    "answer": "Surah An-Nahl"
+  },
+  {
+    "question": "Which Surah is named after an ant?",
+    "options": ["Surah An-Nahl", "Surah An-Naml", "Surah Al-Baqarah", "Surah Al-Fil"],
+    "answer": "Surah An-Naml"
+  },
+  {
+    "question": "Which Surah is named after a spider?",
+    "options": ["Surah Al-Fil", "Surah Al-Ankabut", "Surah An-Nahl", "Surah Al-Qariah"],
+    "answer": "Surah Al-Ankabut"
+  },
+  {
+    "question": "Which Surah is named after an elephant?",
+    "options": ["Surah Al-Fil", "Surah Al-Baqarah", "Surah Al-Qariah", "Surah Al-Ma'un"],
+    "answer": "Surah Al-Fil"
+  },
+  {
+    "question": "Which Surah is named after iron?",
+    "options": ["Surah Al-Hadid", "Surah Al-Mulk", "Surah Al-Hajj", "Surah Al-Furqan"],
+    "answer": "Surah Al-Hadid"
+  },
+  {
+    "question": "Which Surah is named after the moon?",
+    "options": ["Surah Ash-Shams", "Surah Al-Qamar", "Surah An-Najm", "Surah Al-Layl"],
+    "answer": "Surah Al-Qamar"
+  },
+  {
+    "question": "Which Surah is named after the sun?",
+    "options": ["Surah Ash-Shams", "Surah Al-Qamar", "Surah Ad-Duha", "Surah Al-Layl"],
+    "answer": "Surah Ash-Shams"
+  },
+  {
+    "question": "Which Surah is named after the night?",
+    "options": ["Surah Al-Layl", "Surah Ad-Duha", "Surah Ash-Shams", "Surah Al-Qadr"],
+    "answer": "Surah Al-Layl"
+  },
+  {
+    "question": "Which Surah is named after the morning brightness?",
+    "options": ["Surah Ad-Duha", "Surah Al-Layl", "Surah Ash-Shams", "Surah Al-Fajr"],
+    "answer": "Surah Ad-Duha"
+  },
+  {
+    "question": "Which Surah begins with the words 'Iqra bismi rabbik'?",
+    "options": ["Surah Al-Alaq", "Surah Al-Qadr", "Surah Al-Muzzammil", "Surah Al-Qalam"],
+    "answer": "Surah Al-Alaq"
+  },
+  {
+    "question": "Which was the first Surah revealed to Prophet Muhammad ﷺ?",
+    "options": ["Surah Al-Fatihah", "Surah Al-Alaq", "Surah Al-Muddaththir", "Surah Al-Qadr"],
+    "answer": "Surah Al-Alaq"
+  },
+  {
+    "question": "Which Surah is named after the Pen?",
+    "options": ["Surah Al-Qalam", "Surah Al-Alaq", "Surah Al-Furqan", "Surah Al-Qadr"],
+    "answer": "Surah Al-Qalam"
+  },
+  {
+    "question": "Which Surah is named after Time?",
+    "options": ["Surah Al-Asr", "Surah Al-Layl", "Surah Ad-Duha", "Surah Al-Fajr"],
+    "answer": "Surah Al-Asr"
+  },
+  {
+    "question": "Which Surah is named after the Dawn?",
+    "options": ["Surah Al-Fajr", "Surah Ad-Duha", "Surah Ash-Shams", "Surah Al-Layl"],
+    "answer": "Surah Al-Fajr"
+  },
+  {
+    "question": "Which Surah is named after the Star?",
+    "options": ["Surah An-Najm", "Surah Al-Qamar", "Surah Ash-Shams", "Surah At-Tariq"],
+    "answer": "Surah An-Najm"
+  },
+  {
+    "question": "Which Surah is named after the Criterion?",
+    "options": ["Surah Al-Furqan", "Surah Al-Hadid", "Surah Al-Mulk", "Surah Al-Hajj"],
+    "answer": "Surah Al-Furqan"
+  },
+  {
+    "question": "Which Surah is named after the Kingdom?",
+    "options": ["Surah Al-Mulk", "Surah Al-Fath", "Surah Al-Hadid", "Surah Al-Qasas"],
+    "answer": "Surah Al-Mulk"
+  },
+  {
+    "question": "Which Surah is named after Victory?",
+    "options": ["Surah Al-Fath", "Surah An-Nasr", "Surah Al-Mulk", "Surah Al-Qadr"],
+    "answer": "Surah Al-Fath"
+  },
+  {
+    "question": "Which Surah is named after Sincerity?",
+    "options": ["Surah Al-Ikhlas", "Surah Al-Falaq", "Surah An-Nas", "Surah Al-Kafirun"],
+    "answer": "Surah Al-Ikhlas"
+  },
+
+  {
+    "question": "Which Surah mentions the Night of Decree (Laylatul Qadr)?",
+    "options": ["Surah Al-Qadr", "Surah Al-Fajr", "Surah Al-Layl", "Surah Al-Mulk"],
+    "answer": "Surah Al-Qadr"
+  },
+  {
+    "question": "Which Surah begins with the oath 'By the dawn'?",
+    "options": ["Surah Ad-Duha", "Surah Al-Fajr", "Surah Ash-Shams", "Surah Al-Layl"],
+    "answer": "Surah Al-Fajr"
+  },
+  {
+    "question": "Which Surah was revealed about Abu Lahab?",
+    "options": ["Surah Al-Masad", "Surah Al-Kafirun", "Surah Al-Humazah", "Surah Quraysh"],
+    "answer": "Surah Al-Masad"
+  },
+  {
+    "question": "Which Surah starts with 'Qul ya ayyuhal kafirun'?",
+    "options": ["Surah Al-Ikhlas", "Surah Al-Kafirun", "Surah An-Nas", "Surah Al-Falaq"],
+    "answer": "Surah Al-Kafirun"
+  },
+  {
+    "question": "Which Surah is commonly recited for seeking protection from envy?",
+    "options": ["Surah Al-Falaq", "Surah Al-Kawthar", "Surah Al-Asr", "Surah Al-Qariah"],
+    "answer": "Surah Al-Falaq"
+  },
+  {
+    "question": "Which Surah is commonly recited for seeking protection from evil whispers?",
+    "options": ["Surah An-Nas", "Surah Al-Ikhlas", "Surah Al-Kafirun", "Surah Al-Ma'un"],
+    "answer": "Surah An-Nas"
+  },
+  {
+    "question": "Which Surah mentions the event of the Elephant?",
+    "options": ["Surah Al-Fil", "Surah Quraysh", "Surah Al-Masad", "Surah Al-Qadr"],
+    "answer": "Surah Al-Fil"
+  },
+  {
+    "question": "Which Surah comes immediately after Surah Al-Fil?",
+    "options": ["Surah Al-Ma'un", "Surah Quraysh", "Surah Al-Kawthar", "Surah Al-Asr"],
+    "answer": "Surah Quraysh"
+  },
+  {
+    "question": "Which Surah promises abundance (Al-Kawthar) to Prophet Muhammad ﷺ?",
+    "options": ["Surah Al-Kawthar", "Surah Ad-Duha", "Surah Al-Qadr", "Surah Al-Fath"],
+    "answer": "Surah Al-Kawthar"
+  },
+  {
+    "question": "Which Surah teaches that deeds are judged by their weight on the Day of Judgment?",
+    "options": ["Surah Al-Qariah", "Surah Al-Asr", "Surah Al-Humazah", "Surah At-Takathur"],
+    "answer": "Surah Al-Qariah"
+  },
+  {
+    "question": "Which Surah warns against backbiting and slander?",
+    "options": ["Surah Al-Humazah", "Surah Al-Ma'un", "Surah Al-Kafirun", "Surah Al-Qadr"],
+    "answer": "Surah Al-Humazah"
+  },
+  {
+    "question": "Which Surah reminds people that competition for worldly things can distract them?",
+    "options": ["Surah At-Takathur", "Surah Al-Asr", "Surah Quraysh", "Surah Al-Fil"],
+    "answer": "Surah At-Takathur"
+  },
+  {
+    "question": "Which Surah says that mankind is in loss except those who believe and do good deeds?",
+    "options": ["Surah Al-Asr", "Surah Al-Qadr", "Surah Al-Layl", "Surah Al-Fajr"],
+    "answer": "Surah Al-Asr"
+  },
+  {
+    "question": "Which Surah encourages helping the poor and warns against showing off in prayer?",
+    "options": ["Surah Al-Ma'un", "Surah Al-Kawthar", "Surah Al-Ikhlas", "Surah Al-Fil"],
+    "answer": "Surah Al-Ma'un"
+  },
+  {
+    "question": "Which Surah declares the Oneness of Allah in four short verses?",
+    "options": ["Surah Al-Ikhlas", "Surah Al-Falaq", "Surah An-Nas", "Surah Al-Kafirun"],
+    "answer": "Surah Al-Ikhlas"
+  },
+  {
+    "question": "Which Surah mentions the victory granted by Allah?",
+    "options": ["Surah An-Nasr", "Surah Al-Fath", "Surah Al-Qadr", "Surah Al-Mulk"],
+    "answer": "Surah An-Nasr"
+  },
+  {
+    "question": "Which Surah starts with 'Tabaraka alladhi biyadihil mulk'?",
+    "options": ["Surah Al-Mulk", "Surah Al-Furqan", "Surah Al-Hadid", "Surah Al-Qalam"],
+    "answer": "Surah Al-Mulk"
+  },
+  {
+    "question": "Which Surah tells the story of the People of the Cave?",
+    "options": ["Surah Al-Kahf", "Surah Yusuf", "Surah Maryam", "Surah Hud"],
+    "answer": "Surah Al-Kahf"
+  },
+  {
+    "question": "Which Surah contains the story of Dhul-Qarnayn?",
+    "options": ["Surah Al-Kahf", "Surah Al-Qasas", "Surah Yunus", "Surah Ibrahim"],
+    "answer": "Surah Al-Kahf"
+  },
+  {
+    "question": "Which Surah contains the story of Musa (AS) and Al-Khidr?",
+    "options": ["Surah Al-Kahf", "Surah Taha", "Surah Al-Qasas", "Surah Maryam"],
+    "answer": "Surah Al-Kahf"
+  },
+  {
+    "question": "Which Surah is named after the Family of Imran?",
+    "options": ["Surah Al-Baqarah", "Surah Aal-e-Imran", "Surah An-Nisa", "Surah Maryam"],
+    "answer": "Surah Aal-e-Imran"
+  },
+  {
+    "question": "Which Surah is named after Women?",
+    "options": ["Surah Maryam", "Surah An-Nisa", "Surah Al-Ahzab", "Surah At-Talaq"],
+    "answer": "Surah An-Nisa"
+  },
+  {
+    "question": "Which Surah is named after the Table Spread?",
+    "options": ["Surah Al-Ma'idah", "Surah Al-An'am", "Surah Al-Hajj", "Surah Al-Qasas"],
+    "answer": "Surah Al-Ma'idah"
+  },
+  {
+    "question": "Which Surah is named after Cattle?",
+    "options": ["Surah Al-Baqarah", "Surah Al-An'am", "Surah Al-A'raf", "Surah Yunus"],
+    "answer": "Surah Al-An'am"
+  },
+  {
+    "question": "Which Surah is named after the Heights?",
+    "options": ["Surah Al-A'raf", "Surah Hud", "Surah Yusuf", "Surah Ibrahim"],
+    "answer": "Surah Al-A'raf"
+  },
+  {
+    "question": "Which Surah is named after Spoils of War?",
+    "options": ["Surah Al-Anfal", "Surah At-Tawbah", "Surah Al-Fath", "Surah Al-Hashr"],
+    "answer": "Surah Al-Anfal"
+  },
+  {
+    "question": "Which Surah is named after Repentance?",
+    "options": ["Surah At-Tawbah", "Surah Yunus", "Surah Hud", "Surah Ibrahim"],
+    "answer": "Surah At-Tawbah"
+  },
+  {
+    "question": "Which Surah is named after Prophet Yunus (AS)?",
+    "options": ["Surah Hud", "Surah Yunus", "Surah Yusuf", "Surah Ibrahim"],
+    "answer": "Surah Yunus"
+  },
+  {
+    "question": "Which Surah is named after Prophet Hud (AS)?",
+    "options": ["Surah Hud", "Surah Yusuf", "Surah Ibrahim", "Surah Taha"],
+    "answer": "Surah Hud"
+  },
+  {
+    "question": "Which Surah is named after Prophet Ibrahim (AS)?",
+    "options": ["Surah Yusuf", "Surah Ibrahim", "Surah Maryam", "Surah Al-Qasas"],
+    "answer": "Surah Ibrahim"
+  },
+  {
+    "question": "Which Surah is named after the Bees?",
+    "options": ["Surah An-Nahl", "Surah An-Naml", "Surah Al-Ankabut", "Surah Al-Fil"],
+    "answer": "Surah An-Nahl"
+  },
+  {
+    "question": "Which Surah is named after the Children of Israel?",
+    "options": ["Surah Al-Isra", "Surah Taha", "Surah Al-Qasas", "Surah Al-Mu'minun"],
+    "answer": "Surah Al-Isra"
+  },
+  {
+    "question": "Which Surah is also known as Bani Israel?",
+    "options": ["Surah Al-Isra", "Surah Al-Kahf", "Surah Maryam", "Surah Taha"],
+    "answer": "Surah Al-Isra"
+  },
+  {
+    "question": "Which Surah is named after the Cave?",
+    "options": ["Surah Al-Kahf", "Surah Maryam", "Surah Taha", "Surah Al-Anbiya"],
+    "answer": "Surah Al-Kahf"
+  },
+  {
+    "question": "Which Surah is named after Prophet Maryam (AS)?",
+    "options": ["Surah Maryam", "Surah An-Nisa", "Surah Al-Ahzab", "Surah Yusuf"],
+    "answer": "Surah Maryam"
+  },
+  {
+    "question": "Which Surah is named after Prophet Taha?",
+    "options": ["Surah Taha", "Surah Yaseen", "Surah Hud", "Surah Yusuf"],
+    "answer": "Surah Taha"
+  },
+  {
+    "question": "Which Surah is named after the Prophets?",
+    "options": ["Surah Al-Anbiya", "Surah Al-Mu'minun", "Surah Al-Hajj", "Surah Al-Furqan"],
+    "answer": "Surah Al-Anbiya"
+  },
+  {
+    "question": "Which Surah is named after the Pilgrimage?",
+    "options": ["Surah Al-Hajj", "Surah Al-Baqarah", "Surah Al-Fath", "Surah Ibrahim"],
+    "answer": "Surah Al-Hajj"
+  },
+  {
+    "question": "Which Surah is named after the Believers?",
+    "options": ["Surah Al-Mu'minun", "Surah Al-Mumtahanah", "Surah Al-Hashr", "Surah As-Saff"],
+    "answer": "Surah Al-Mu'minun"
+  },
+  {
+    "question": "Which Surah is named after the Light?",
+    "options": ["Surah An-Nur", "Surah Al-Hadid", "Surah Al-Furqan", "Surah Ash-Shams"],
+    "answer": "Surah An-Nur"
+  }
+
+
+
+
+]
+

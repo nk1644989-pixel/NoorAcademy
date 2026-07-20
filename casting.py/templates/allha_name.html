@@ -1,0 +1,140 @@
+<header>
+    <h1>🕌 99 Names of Allah</h1>
+    <p>Asma-ul-Husna</p>
+
+    <button onclick="toggleDarkMode()" id="darkBtn">
+        🌙 Dark Mode
+    </button>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+</header>
+
+<div class="names-container">
+
+{% for name in names %}
+
+<div class="name-card">
+
+    <h2 class="arabic">{{ name.arabic }}</h2>
+
+    <h3>{{ name.english }}</h3>
+
+    <h4 class="urdu">{{ name.urdu }}</h4>
+
+    <p class="meaning">{{ name.meaning }}</p>
+
+    <div class="card-buttons">
+
+        <button class="icon-btn"
+        onclick="copyName('{{ name.arabic }} - {{ name.english }} - {{ name.urdu }} - {{ name.meaning }}')">
+        📋
+        </button>
+
+        <button class="icon-btn"
+        onclick="shareName('{{ name.arabic }} - {{ name.english }} - {{ name.urdu }} - {{ name.meaning }}')">
+        📤
+           
+    </div>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+<script>
+
+function copyName(text){
+
+    navigator.clipboard.writeText(text);
+
+    alert("Copied Successfully!");
+
+}
+
+function shareName(text){
+
+    if(navigator.share){
+
+        navigator.share({
+            title:"99 Names of Allah",
+            text:text
+        });
+
+    }else{
+
+        navigator.clipboard.writeText(text);
+
+        alert("Sharing not supported. Text Copied.");
+
+    }
+
+}
+
+    function shareName(button){
+
+    let card = button.closest(".name-card");
+
+    let arabic = card.querySelector(".arabic").innerText;
+    let english = card.querySelector("h3").innerText;
+    let urdu = card.querySelector(".urdu").innerText;
+    let meaning = card.querySelector("p").innerText;
+
+    let text =
+`🕌 99 Names of Allah
+
+${arabic}
+
+${english}
+
+${urdu}
+
+${meaning}
+
+📖 Noor Academy`;
+
+    if(navigator.share){
+
+        navigator.share({
+            title:"99 Names of Allah",
+            text:text
+        });
+
+    }else{
+
+        navigator.clipboard.writeText(text);
+        alert("Sharing is not supported. Text copied instead.");
+
+    }
+}
+
+</script>
+
+<footer>
+    <p>© 2026 Noor Academy</p>
+</footer>
+
+<script>
+
+function toggleDarkMode(){
+
+    document.body.classList.toggle("dark");
+
+    if(document.body.classList.contains("dark")){
+        localStorage.setItem("theme","dark");
+    }else{
+        localStorage.setItem("theme","light");
+    }
+
+}
+
+if(localStorage.getItem("theme")=="dark"){
+    document.body.classList.add("dark");
+}
+
+</script>
+
+</body>
+</html>

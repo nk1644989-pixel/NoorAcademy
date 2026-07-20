@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Salah - Noor Academy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+<header>
+    <h1>🕌 Salah</h1>
+    <p>Learn Daily Salah</p>
+
+    <button onclick="toggleDarkMode()" id="darkBtn">
+        🌙 Dark Mode
+    </button>
+</header>
+
+<div class="container">
+
+{% for prayer in salah %}
+
+<div class="card">
+
+    <h2>{{ prayer["name"] }}</h2>
+
+    <p><b>Rakats:</b> {{ prayer["rakats"] }}</p>
+
+    <p><b>Time:</b> {{ prayer["time"] }}</p>
+
+    <p>{{ prayer["description"] }}</p>
+
+</div>
+
+{% endfor %}
+
+
+</div>
+
+<footer>
+    <p>© 2026 Noor Academy</p>
+</footer>
+
+<script>
+function toggleDarkMode(){
+
+    document.body.classList.toggle("dark");
+
+    if(document.body.classList.contains("dark")){
+        localStorage.setItem("theme","dark");
+    }else{
+        localStorage.setItem("theme","light");
+    }
+
+}
+
+if(localStorage.getItem("theme")=="dark"){
+    document.body.classList.add("dark");
+}
+</script>
+</body>
+</html>

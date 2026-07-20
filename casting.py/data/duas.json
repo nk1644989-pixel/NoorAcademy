@@ -1,0 +1,143 @@
+[
+  {
+    "title": "Before Eating",
+    "arabic": "بِسْمِ اللَّهِ",
+    "urdu": "اللہ کے نام سے",
+    "english": "In the name of Allah",
+    "reference": "Sunan Abi Dawood 3767"
+  },
+  {
+    "title": "After Eating",
+    "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍ",
+    "urdu": "تمام تعریفیں اللہ کے لیے ہیں جس نے مجھے یہ کھانا کھلایا اور اپنی قدرت سے عطا فرمایا۔",
+    "english": "All praise is for Allah who fed me this and provided it for me without any power or strength from myself.",
+    "reference": "Jami' at-Tirmidhi 3458"
+  },
+  {
+    "title": "Before Sleeping",
+    "arabic": "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا",
+    "urdu": "اے اللہ! تیرے نام کے ساتھ میں مرتا اور جیتا ہوں۔",
+    "english": "In Your Name, O Allah, I die and I live.",
+    "reference": "Sahih al-Bukhari 6324"
+  },
+  {
+    "title": "After Waking Up",
+    "arabic": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+    "urdu": "تمام تعریفیں اللہ کے لیے ہیں جس نے ہمیں موت جیسی نیند کے بعد زندہ کیا، اور اسی کی طرف لوٹ کر جانا ہے۔",
+    "english": "All praise is for Allah who gave us life after causing us to die, and to Him is the resurrection.",
+    "reference": "Sahih al-Bukhari 6312"
+  },
+  {
+    "title": "Entering Home",
+    "arabic": "بِسْمِ اللَّهِ وَلَجْنَا وَبِسْمِ اللَّهِ خَرَجْنَا وَعَلَى اللَّهِ رَبِّنَا تَوَكَّلْنَا",
+    "urdu": "اللہ کے نام سے ہم داخل ہوئے، اللہ کے نام سے نکلے، اور اپنے رب اللہ پر بھروسہ کیا۔",
+    "english": "In the Name of Allah we enter and in the Name of Allah we leave, and upon our Lord we rely.",
+    "reference": "Sunan Abi Dawood 5096"
+  },
+{
+  "title": "Leaving Home",
+  "arabic": "بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ، لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+  "urdu": "اللہ کے نام سے، میں نے اللہ پر بھروسہ کیا، گناہ سے بچنے اور نیکی کرنے کی طاقت اللہ ہی سے ہے۔",
+  "english": "In the Name of Allah, I place my trust in Allah. There is no power and no strength except with Allah.",
+  "reference": "Sunan Abi Dawood 5095"
+},
+{
+  "title": "Entering Masjid",
+  "arabic": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+  "urdu": "اے اللہ! میرے لیے اپنی رحمت کے دروازے کھول دے۔",
+  "english": "O Allah, open for me the doors of Your mercy.",
+  "reference": "Sahih Muslim 713"
+},
+{
+  "title": "Leaving Masjid",
+  "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
+  "urdu": "اے اللہ! میں تجھ سے تیرے فضل کا سوال کرتا ہوں۔",
+  "english": "O Allah, I ask You from Your bounty.",
+  "reference": "Sahih Muslim 713"
+},
+{
+  "title": "Before Wudu",
+  "arabic": "بِسْمِ اللَّهِ",
+  "urdu": "اللہ کے نام سے۔",
+  "english": "In the Name of Allah.",
+  "reference": "Sunan Ibn Majah 397"
+},
+{
+  "title": "After Wudu",
+  "arabic": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+  "urdu": "میں گواہی دیتا ہوں کہ اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اس کا کوئی شریک نہیں، اور محمد ﷺ اس کے بندے اور رسول ہیں۔",
+  "english": "I bear witness that none has the right to be worshipped except Allah alone with no partner, and Muhammad ﷺ is His servant and Messenger.",
+  "reference": "Sahih Muslim 234"
+},
+{
+  "title": "Looking in the Mirror",
+  "arabic": "اللَّهُمَّ كَمَا حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي",
+  "urdu": "اے اللہ! جس طرح تو نے میری صورت خوبصورت بنائی، اسی طرح میرے اخلاق بھی خوبصورت بنا۔",
+  "english": "O Allah, just as You have made my appearance beautiful, make my character beautiful.",
+  "reference": "Musnad Ahmad 24392"
+},
+{
+  "title": "Before Studying",
+  "arabic": "رَبِّ زِدْنِي عِلْمًا",
+  "urdu": "اے میرے رب! میرے علم میں اضافہ فرما۔",
+  "english": "My Lord, increase me in knowledge.",
+  "reference": "Quran 20:114"
+},
+{
+  "title": "Seeking Forgiveness",
+  "arabic": "أَسْتَغْفِرُ اللَّهَ",
+  "urdu": "میں اللہ سے بخشش مانگتا ہوں۔",
+  "english": "I seek forgiveness from Allah.",
+  "reference": "Sahih Muslim 2702"
+},
+{
+  "title": "When Sneezing",
+  "arabic": "الْحَمْدُ لِلَّهِ",
+  "urdu": "تمام تعریفیں اللہ کے لیے ہیں۔",
+  "english": "All praise is for Allah.",
+  "reference": "Sahih al-Bukhari 6224"
+},
+{
+  "title": "Reply to a Sneezer",
+  "arabic": "يَرْحَمُكَ اللَّهُ",
+  "urdu": "اللہ تم پر رحم فرمائے۔",
+  "english": "May Allah have mercy on you.",
+  "reference": "Sahih al-Bukhari 6224"
+},
+{
+  "title": "Morning Dhikr",
+  "arabic": "أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ",
+  "urdu": "ہم نے صبح کی اور ساری بادشاہت اللہ ہی کے لیے ہے۔",
+  "english": "We have entered the morning and all sovereignty belongs to Allah.",
+  "reference": "Sahih Muslim 2723"
+},
+{
+  "title": "Evening Dhikr",
+  "arabic": "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ",
+  "urdu": "ہم نے شام کی اور ساری بادشاہت اللہ ہی کے لیے ہے۔",
+  "english": "We have entered the evening and all sovereignty belongs to Allah.",
+  "reference": "Sahih Muslim 2723"
+},
+{
+  "title": "When Feeling Distressed",
+  "arabic": "حَسْبِيَ اللَّهُ وَنِعْمَ الْوَكِيلُ",
+  "urdu": "میرے لیے اللہ کافی ہے، اور وہ بہترین کارساز ہے۔",
+  "english": "Allah is sufficient for me, and He is the best Disposer of affairs.",
+  "reference": "Quran 3:173"
+},
+{
+  "title": "When Thanking Allah",
+  "arabic": "الْحَمْدُ لِلَّهِ",
+  "urdu": "تمام تعریفیں اللہ کے لیے ہیں۔",
+  "english": "All praise is for Allah.",
+  "reference": "Sahih Muslim"
+},
+{
+  "title": "For Parents",
+  "arabic": "رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا",
+  "urdu": "اے میرے رب! ان دونوں پر رحم فرما جیسے انہوں نے بچپن میں میری پرورش کی۔",
+  "english": "My Lord, have mercy upon them as they brought me up when I was small.",
+  "reference": "Quran 17:24"
+}
+
+]

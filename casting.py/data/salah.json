@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Fajr Prayer",
+    "rakats": "2 Sunnah + 2 Farz",
+    "time": "From True Dawn until Sunrise",
+    "description": "Fajr is the first prayer of the day."
+  },
+  {
+    "name": "Dhuhr Prayer",
+    "rakats": "4 Sunnah + 4 Farz + 2 Sunnah",
+    "time": "After the sun passes the middle until Asr",
+    "description": "Dhuhr is the midday prayer."
+  },
+  {
+    "name": "Asr Prayer",
+    "rakats": "4 Farz",
+    "time": "Afternoon until before Sunset",
+    "description": "Asr is the afternoon prayer."
+  },
+  {
+    "name": "Maghrib Prayer",
+    "rakats": "3 Farz + 2 Sunnah",
+    "time": "Immediately after Sunset",
+    "description": "Maghrib is the evening prayer."
+  },
+  {
+    "name": "Isha Prayer",
+    "rakats": "4 Farz + 2 Sunnah + Witr",
+    "time": "After Twilight until Fajr",
+    "description": "Isha is the night prayer."
+  }
+]
+  

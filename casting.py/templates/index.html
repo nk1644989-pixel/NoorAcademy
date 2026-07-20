@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Noor Academy</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+
+    <h1>🕌 Noor Academy</h1>
+
+    <h3>بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ</h3>
+
+    <p>Learn Quran • Hadith • Duas • Salah</p>
+
+    <button onclick="toggleDarkMode()" id="darkBtn">
+        🌙 Dark Mode
+    </button>
+
+    <marquee behavior="scroll" direction="left" scrollamount="4">
+        ✨ Assalamu Alaikum • Welcome to Noor Academy • Your Daily Islamic Companion
+    </marquee>
+
+</header>
+
+<div class="stats">
+    
+
+    <div class="stat-card">
+        <h2>📖 114</h2>
+        <p>Surahs</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>📚 6151</h2>
+        <p>Hadiths</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>🤲 99</h2>
+        <p>Names of Allah</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>🕋 5</h2>
+        <p>Daily Prayers</p>
+    </div>
+
+<div class="container">
+
+<a href="/quran" style="text-decoration:none;color:black;">
+<div class="card">
+<h2>📖 Quran</h2>
+<p>Read Quran</p>
+</div>
+</a>
+
+<a href="/hadith" style="text-decoration:none;color:black;">
+<div class="card">
+<h2>📚 Hadith</h2>
+<p>Authentic Hadith</p>
+</div>
+</a>
+
+<a href="/duas" style="text-decoration:none;color:black;">
+<div class="card">
+<h2>🤲 Daily Duas</h2>
+<p>Morning & Evening</p>
+</div>
+</a>
+
+<a href="/salah" style="text-decoration:none;color:black;">
+<div class="card">
+<h2>🕌 Salah</h2>
+<p>Learn Salah</p>
+</div>
+</a>
+
+<a href="/quiz" style="text-decoration:none;color:black;">
+<div class="card">
+<h2>📝 Islamic Quiz</h2>
+<p>Test Knowledge</p>
+</div>
+</a>
+
+<a href="/allah-names" style="text-decoration:none;color:black;">
+<div class="card">
+<h2>🕌 99 Names</h2>
+<p>Learn Names</p>
+</div>
+</a>
+<a href="/prayer-times" style="text-decoration:none;color:black;">
+<div class="card">
+<h2>🕒 Prayer Times</h2>
+<p>Today's Timings</p>
+</div>
+</a>
+<a href="/about" style="text-decoration:none;color:black;">
+<div class="card">
+    <h2>ℹ️ About</h2>
+    <p>About Noor Academy</p>
+</div>
+</a>
+<a href="/contact" style="text-decoration:none;color:black;">
+<div class="card">
+    <h2>📩 Contact</h2>
+    <p>Send Feedback</p>
+</div>
+</a>
+
+</div>
+
+<footer>
+🕌 Noor Academy • Made with ❤️ for the Ummah • © 2026 Noor Academy
+</footer>
+
+<script>
+function openLastRead(){
+
+    let surah = localStorage.getItem("lastRead");
+
+    if(surah){
+        window.location.href = "/surah/" + surah;
+    }
+    else{
+        alert("No Surah has been read yet.");
+    }
+
+}
+</script>
+<script>
+
+function toggleDarkMode(){
+
+    document.body.classList.toggle("dark");
+
+    if(document.body.classList.contains("dark")){
+        localStorage.setItem("theme","dark");
+    }else{
+        localStorage.setItem("theme","light");
+    }
+
+}
+
+if(localStorage.getItem("theme")=="dark"){
+    document.body.classList.add("dark");
+}
+
+</script>
+</body>
+</html>

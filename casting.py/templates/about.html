@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About - Noor Academy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>🕌 About Noor Academy</h1>
+    <p>Learn Islam with Authentic Knowledge</p>
+
+    <button onclick="toggleDarkMode()" id="darkBtn">
+        🌙 Dark Mode
+    </button>
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h2>🕌 Noor Academy</h2>
+
+<p>
+Noor Academy is an Islamic educational platform designed to provide authentic Islamic knowledge in a simple and beautiful way.
+</p>
+
+</div>
+<div class="card">
+
+<h2>🕌 Our Mission</h2>
+
+<p>
+Noor Academy is created to help Muslims learn the Quran, Hadith, Duas, Salah and Islamic Knowledge in a simple and beautiful way.
+</p>
+
+</div>
+<div class="card">
+
+<h2>❤️ Our Vision</h2>
+
+<p>
+Our goal is to spread authentic Islamic knowledge for everyone around the world, completely free and easy to use.
+</p>
+
+</div>
+<div class="about-card">
+
+    <h2>✨ Features</h2>
+
+    <ul>
+        <li>📖 Holy Quran</li>
+        <li>📚 Authentic Hadith</li>
+        <li>🤲 Daily Duas</li>
+        <li>🕌 Salah Guide</li>
+        <li>📝 Islamic Quiz</li>
+        <li>🕒 Prayer Times</li>
+    </ul>
+
+</div>
+<div class="card">
+
+<h2>🤲 Dua</h2>
+
+<p>
+May Allah accept this effort, forgive our mistakes and make this app beneficial for the Ummah.
+
+Ameen.
+</p>
+
+</div>
+
+<footer>
+
+🕌 Noor Academy
+
+<br><br>
+
+© 2026 Noor Academy
+
+</footer>
+
+<script>
+
+function toggleDarkMode(){
+
+    document.body.classList.toggle("dark");
+
+    if(document.body.classList.contains("dark")){
+        localStorage.setItem("theme","dark");
+    }else{
+        localStorage.setItem("theme","light");
+    }
+
+}
+
+if(localStorage.getItem("theme")=="dark"){
+    document.body.classList.add("dark");
+}
+
+</script>
+
+</body>
+</html>

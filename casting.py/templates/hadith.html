@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hadith</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>📚 Hadith</h1>
+    <p>Authentic Hadith Collection</p>
+    <button onclick="toggleDarkMode()" id="darkBtn">
+    🌙 Dark Mode
+</button>
+</header>
+
+<input
+    type="text"
+    id="searchInput"
+    placeholder="🔍 Search Hadith..."
+    onkeyup="searchHadith()"
+    class="search-box">
+    <p id="noResult" style="display:none; text-align:center; font-weight:bold;">
+❌ No Hadith Found
+</p>
+
+
+
+<div class="container">
+
+{% for hadith in hadiths[:100] %}
+
+
+{% if hadith["text"] %}
+
+<div class="card hadith-card">
+<h2>Hadith {{ hadith["hadithnumber"] }}</h2>
+<p class="english">
+        {{ hadith["text"] }}
+    </p>
+    <div class="btn-group">
+
+    <button class="fav-btn" onclick="shareHadith(this)">📤</button>
+    <button class="fav-btn" onclick="copyHadith(this)">📋</button>
+    <button class="fav-btn" onclick="bookmarkHadith(this)">⭐</button>
+</div>
+<br><br>
+    
+    
+
+</div>
+{% endif %}
+
+{% endfor %}
+
+</div>
+
+<footer>
+    <p>© 2026 Noor Academy</p>
+</footer>
+
+<script>
+
+function searchHadith(){
+
+    let input = document.getElementById("searchInput").value.toLowerCase();
+
+    let cards = document.getElementsByClassName("hadith-card");
+
+    for(let i=0;i<cards.length;i++){
+
+        let text = cards[i].innerText.toLowerCase();
+
+        if(text.includes(input)){
+            cards[i].style.display = "block";
+        }else{
+            cards[i].style.display = "none";
+        }
+
+    }
+
+}
+
+ 
+</script>
+<script>
+
+
+function shareHadith(button){
+
+    let card = button.parentElement;
+
+    let text = card.innerText;
+
+    if(navigator.share){
+
+        navigator.share({
+
+            title: "Noor Academy",
+            text: text
+
+        });
+
+    }else{
+
+        navigator.clipboard.writeText(text);
+
+        alert("Hadith copied to clipboard.");
+
+    }
+
+}
+function copyHadith(button){
+
+    let card = button.parentElement;
+
+    let text = card.innerText;
+
+    navigator.clipboard.writeText(text);
+
+    alert("✅ Hadith copied successfully!");
+
+}
+function bookmarkHadith(button){
+
+    let card = button.parentElement;
+
+    let text = card.innerText;
+
+    localStorage.setItem("lastHadith", text);
+
+    button.innerText = "⭐ Bookmarked";
+
+}
+</script>
+<script>
+
+function toggleDarkMode(){
+
+document.body.classList.toggle("dark");
+
+let btn=document.getElementById("darkBtn");
+
+if(document.body.classList.contains("dark")){
+
+btn.innerHTML="☀️ Light Mode";
+
+}else{
+
+btn.innerHTML="🌙 Dark Mode";
+
+}
+
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily Quiz - Noor Academy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>📚 Daily Quiz</h1>
+    <p>Daily Quiz</p>
+    <button onclick="toggleDarkMode()" id="darkBtn">
+    🌙 Dark Mode
+</button>
+</header>
+
+<div class="score-box">
+    ✅ Correct: <span id="correct">0</span> |
+    ❌ Wrong: <span id="wrong">0</span>
+</div>
+
+<h2 id="score">Score: 0</h2>
+<h2 id="timer">
+⏰ Time Left: <span id="time">60</span>s
+</h2>
+<div class="progress-container">
+
+    <div class="progress-bar" id="progressBar"></div>
+
+</div>
+
+<p id="progressText">0 / 10 Questions</p>
+
+<div class="container" id="quizContainer">
+
+{% for q in quiz %}
+
+{% set qid = loop.index %}
+
+<div class="card quiz-card">
+<h2>{{ q["question"] }}</h2>
+
+<p id="result{{ qid }}"></p>
+
+{% for option in q["options"] %}
+
+<button
+class="quiz-btn"
+onclick="checkAnswer(this, '{{ q['answer'] }}', {{ qid }})">
+
+{{ option }}
+
+
+
+</button>
+
+
+
+{% endfor %}
+
+</div>
+
+{% endfor %}
+</div>
+<div id="resultBox" class="result-box" style="display:none;">
+
+    <h1>🎉 Quiz Completed!</h1>
+
+    <h2>Score: <span id="finalScore"></span>/10</h2>
+
+    <h3>✅ Correct: <span id="finalCorrect"></span></h3>
+
+    <h3>❌ Wrong: <span id="finalWrong"></span></h3>
+
+    <h3>📊 Percentage:
+        <span id="percentage"></span>%
+    </h3>
+
+    <h2 id="badge"></h2>
+
+    <br>
+
+    <button onclick="location.reload()">
+        🔄 Play Again
+    </button>
+
+    <button onclick="window.location='/'">
+        🏠 Home
+    </button>
+
+
+
+</div>
+<footer>
+    <p>© 2026 Noor Academy</p>
+</footer>
+
+
+
+<script>
+
+function toggleDarkMode(){
+
+    document.body.classList.toggle("dark");
+
+    if(document.body.classList.contains("dark")){
+        localStorage.setItem("theme","dark");
+    }else{
+        localStorage.setItem("theme","light");
+    }
+}
+
+if(localStorage.getItem("theme")=="dark"){
+    document.body.classList.add("dark");
+}
+
+let score = 0;
+let correctCount = 0;
+let wrongCount = 0;
+let quizFinished = false;
+let userAnswers = [];
+let timeLeft = 60;
+
+let timer = setInterval(function () {
+
+    timeLeft--;
+
+    document.getElementById("time").innerHTML = timeLeft;
+
+   if (timeLeft <= 0 && !quizFinished) {
+
+    finishQuiz();
+
+}
+
+}, 1000);
+
+
+
+function checkAnswer(button, correct, id){
+
+    let selected = button.innerText;
+userAnswers.push({
+    id: id,
+    selected: selected,
+    correct: correct
+});
+    let result = document.getElementById("result" + id);
+
+    if(result.innerHTML != ""){
+        return;
+    }
+
+    if(selected == correct){
+
+        result.innerHTML = "✅ Correct!";
+        result.style.color = "green";
+        button.style.background = "green";
+        button.style.color = "white";
+
+        score++;
+        correctCount++;
+
+        document.getElementById("correct").innerHTML = correctCount;
+
+    }else{
+
+        result.innerHTML = "❌ Wrong!";
+        result.style.color = "red";
+        button.style.background = "red";
+        button.style.color = "white";
+
+        wrongCount++;
+
+        document.getElementById("wrong").innerHTML = wrongCount;
+    }
+let buttons = button.parentElement.querySelectorAll(".quiz-btn");
+
+buttons.forEach(function(btn){
+
+    if(btn.innerText.trim() == correct){
+
+        btn.style.background = "green";
+        btn.style.color = "white";
+
+    }
+
+    btn.disabled = true;
+
+});
+
+    document.getElementById("score").innerHTML = "Score: " + score;
+   let totalAnswered = correctCount + wrongCount;
+
+let percent = (totalAnswered / 10) * 100;
+
+document.getElementById("progressBar").style.width = percent + "%";
+
+document.getElementById("progressText").innerHTML =
+
+totalAnswered + " / 10 Questions";
+if(totalAnswered == 10){
+
+    finishQuiz();
+
+
+
+}
+function finishQuiz(){
+
+
+    if(quizFinished){
+        return;
+    }
+
+    quizFinished = true;
+
+    clearInterval(timer);
+
+    document.querySelector(".container").style.display = "none";
+    document.querySelector(".score-box").style.display = "none";
+    document.getElementById("score").style.display = "none";
+    document.getElementById("timer").style.display = "none";
+
+    document.getElementById("resultBox").style.display = "block";
+
+    let percentage = Math.round((correctCount / 10) * 100);
+
+    document.getElementById("finalScore").innerHTML = score;
+    document.getElementById("finalCorrect").innerHTML = correctCount;
+    document.getElementById("finalWrong").innerHTML = wrongCount;
+    document.getElementById("percentage").innerHTML = percentage;
+
+    let badge = "";
+
+    if(percentage >= 90){
+        badge = "👑 Islamic Master";
+    }else if(percentage >= 75){
+        badge = "🥇 Excellent";
+    }else if(percentage >= 50){
+        badge = "🥈 Good";
+    }else{
+        badge = "🥉 Beginner";
+    }
+
+    document.getElementById("badge").innerHTML = badge;
+}
+}
+</script>
+
+</body>
+</html>

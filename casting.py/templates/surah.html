@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+    <title>{{ name }}</title>
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>{{ name }}</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<button onclick="toggleDarkMode()" id="darkBtn">
+    🌙 Dark Mode
+</button>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>   
+
+<body>
+
+<h1>📖 {{ name }}</h1>
+<div class="word-box">
+
+{% for word in word_verses[0]["words"] %}
+
+    <div class="word-card">
+
+        <div class="arabic-word">
+            {{ word["text"] }}
+        </div>
+
+        <div class="english-word">
+            {{ word["translation"]["text"] }}
+        </div>
+
+    </div>
+
+{% endfor %}
+
+</div>
+<a href="/quran">⬅ Back to Quran</a>
+
+<hr>
+
+<h2>{{ name }}</h2>
+
+<h3>🎧 Play Full Surah</h3>
+
+<audio controls style="width:100%;">
+    <source src="{{ audio_url }}" type="audio/mpeg">
+    Your browser does not support audio.
+</audio>
+
+<hr>
+
+{% for i in range(ayat|length) %}
+
+<div style="margin-bottom:25px;">
+
+    <h3>آیت {{ i + 1 }}</h3>
+
+    <p class="arabic">
+        {{ ayat[i]["text"] }}
+    </p>
+
+    <p class="urdu">
+        {{ urdu_ayat[i]["text"] }}
+    </p>
+
+    <p class="english">
+        {{ english_ayat[i]["text"] }}
+    </p>
+
+  
+    <hr>
+
+</div>
+
+{% endfor %}
+ <button class="fav-btn">
+    📚 Tafseer (Coming Soon)
+</button>
+<script>
+
+function toggleDarkMode(){
+
+document.body.classList.toggle("dark");
+
+let btn=document.getElementById("darkBtn");
+
+if(document.body.classList.contains("dark")){
+
+btn.innerHTML="☀️ Light Mode";
+
+}else{
+
+btn.innerHTML="🌙 Dark Mode";
+
+}
+
+}
+
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prayer Times</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+
+
+<header>
+    <h1>🕌 Prayer Times</h1>
+    <p>Today's Prayer Timings</p>
+    <button onclick="toggleDarkMode()" id="darkBtn">
+    🌙 Dark Mode
+</button>
+</header>
+<p>📅 {{ date }}</p>
+<p>📍 {{ city }}</p>
+<div class="next-prayer">
+
+<h2>🟢 Next Prayer</h2>
+
+<h3 id="nextPrayer">Loading...</h3>
+
+</div>
+<div class="container">
+
+<div class="card" id="Fajr">
+<h2>🌅 Fajr</h2>
+<p>{{ timings["Fajr"] }}</p>
+</div>
+
+<div class="card" id="Sunrise">
+<h2>🌄 Sunrise</h2>
+<p>{{ timings["Sunrise"] }}</p>
+</div>
+
+<div class="card" id="Dhuhr">
+<h2>☀️ Dhuhr</h2>
+<p>{{ timings["Dhuhr"] }}</p>
+</div>
+
+<div class="card" id="Asr">
+<h2>🌇 Asr</h2>
+<p>{{ timings["Asr"] }}</p>
+</div>
+
+<div class="card" id="Maghrib">
+<h2>🌆 Maghrib</h2>
+<p>{{ timings["Maghrib"] }}</p>
+</div>
+
+<div class="card" id="Isha">
+<h2>🌙 Isha</h2>
+<p>{{ timings["Isha"] }}</p>
+</div>
+
+</div>
+
+<footer>
+    <p>© 2026 Noor Academy</p>
+</footer>
+<script>
+
+let prayers = {
+    "Fajr": "{{ timings.Fajr }}",
+    "Dhuhr": "{{ timings.Dhuhr }}",
+    "Asr": "{{ timings.Asr }}",
+    "Maghrib": "{{ timings.Maghrib }}",
+    "Isha": "{{ timings.Isha }}"
+};
+
+let now = new Date();
+
+let currentMinutes = now.getHours() * 60 + now.getMinutes();
+
+let nextPrayer = "Fajr";
+
+for(let name in prayers){
+
+    let time = prayers[name].split(":");
+
+    let prayerMinutes = parseInt(time[0]) * 60 + parseInt(time[1]);
+
+    if(currentMinutes < prayerMinutes){
+
+        nextPrayer = name;
+        break;
+
+    }
+
+}
+
+document.getElementById("nextPrayer").innerHTML = "🕌 " + nextPrayer;
+let card = document.getElementById(nextPrayer);
+
+if(card){
+
+    card.classList.add("active-prayer");
+
+}
+</script>
+<script>
+
+function toggleDarkMode(){
+
+document.body.classList.toggle("dark");
+
+let btn=document.getElementById("darkBtn");
+
+if(document.body.classList.contains("dark")){
+
+btn.innerHTML="☀️ Light Mode";
+
+}else{
+
+btn.innerHTML="🌙 Dark Mode";
+
+}
+
+}
+
+</script>
+</body>
+</html>

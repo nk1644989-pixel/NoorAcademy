@@ -1,0 +1,598 @@
+[
+ 
+  {
+    "arabic": "الرَّحْمٰنُ",
+    "english": "Ar-Rahman",
+    "urdu": "سب سے زیادہ رحم کرنے والا",
+    "meaning": "The Most Compassionate"
+  },
+  {
+    "arabic": "الرَّحِيمُ",
+    "english": "Ar-Raheem",
+    "urdu": "بہت رحم کرنے والا",
+    "meaning": "The Most Merciful"
+  },
+  {
+    "arabic": "الْمَلِكُ",
+    "english": "Al-Malik",
+    "urdu": "حقیقی بادشاہ",
+    "meaning": "The King"
+  },
+  {
+    "arabic": "الْقُدُّوسُ",
+    "english": "Al-Quddus",
+    "urdu": "ہر عیب سے پاک",
+    "meaning": "The Most Holy"
+  },
+  {
+    "arabic": "السَّلَامُ",
+    "english": "As-Salam",
+    "urdu": "سلامتی دینے والا",
+    "meaning": "The Source of Peace"
+  },
+  {
+    "arabic": "الْمُؤْمِنُ",
+    "english": "Al-Mu'min",
+    "urdu": "امن دینے والا",
+    "meaning": "The Giver of Security"
+  },
+  {
+    "arabic": "الْمُهَيْمِنُ",
+    "english": "Al-Muhaymin",
+    "urdu": "نگہبان",
+    "meaning": "The Protector"
+  },
+  {
+    "arabic": "الْعَزِيزُ",
+    "english": "Al-Aziz",
+    "urdu": "سب پر غالب",
+    "meaning": "The Almighty"
+  },
+  {
+    "arabic": "الْجَبَّارُ",
+    "english": "Al-Jabbar",
+    "urdu": "زبردست قوت والا",
+    "meaning": "The Compeller"
+  },
+  {
+    "arabic": "الْمُتَكَبِّرُ",
+    "english": "Al-Mutakabbir",
+    "urdu": "بزرگی والا",
+    "meaning": "The Supreme"
+  },
+  {
+    "arabic": "الْخَالِقُ",
+    "english": "Al-Khaliq",
+    "urdu": "پیدا کرنے والا",
+    "meaning": "The Creator"
+  },
+  {
+    "arabic": "الْبَارِئُ",
+    "english": "Al-Bari",
+    "urdu": "عدم سے پیدا کرنے والا",
+    "meaning": "The Originator"
+  },
+  {
+    "arabic": "الْمُصَوِّرُ",
+    "english": "Al-Musawwir",
+    "urdu": "صورت بنانے والا",
+    "meaning": "The Fashioner"
+  },
+  {
+    "arabic": "الْغَفَّارُ",
+    "english": "Al-Ghaffar",
+    "urdu": "بہت بخشنے والا",
+    "meaning": "The Constant Forgiver"
+  },
+  {
+    "arabic": "الْقَهَّارُ",
+    "english": "Al-Qahhar",
+    "urdu": "سب پر غالب",
+    "meaning": "The All-Dominant"
+  },
+  {
+    "arabic": "الْوَهَّابُ",
+    "english": "Al-Wahhab",
+    "urdu": "بہت عطا کرنے والا",
+    "meaning": "The Supreme Bestower"
+  },
+  {
+    "arabic": "الرَّزَّاقُ",
+    "english": "Ar-Razzaq",
+    "urdu": "رزق دینے والا",
+    "meaning": "The Provider"
+  },
+  {
+    "arabic": "الْفَتَّاحُ",
+    "english": "Al-Fattah",
+    "urdu": "فتح دینے والا",
+    "meaning": "The Opener"
+  },
+  {
+    "arabic": "الْعَلِيمُ",
+    "english": "Al-Aleem",
+    "urdu": "سب کچھ جاننے والا",
+    "meaning": "The All-Knowing"
+  },
+  {
+    "arabic": "الْقَابِضُ",
+    "english": "Al-Qabid",
+    "urdu": "روکنے والا",
+    "meaning": "The Withholder"
+  },
+  {
+    "arabic": "الْبَاسِطُ",
+    "english": "Al-Basit",
+    "urdu": "کشادگی دینے والا",
+    "meaning": "The Expander"
+  },
+  {
+    "arabic": "الْخَافِضُ",
+    "english": "Al-Khafid",
+    "urdu": "پست کرنے والا",
+    "meaning": "The Humbler"
+  },
+  {
+    "arabic": "الرَّافِعُ",
+    "english": "Ar-Rafi",
+    "urdu": "بلند کرنے والا",
+    "meaning": "The Exalter"
+  },
+  {
+    "arabic": "الْمُعِزُّ",
+    "english": "Al-Muizz",
+    "urdu": "عزت دینے والا",
+    "meaning": "The Honourer"
+  },
+  {
+    "arabic": "الْمُذِلُّ",
+    "english": "Al-Mudhill",
+    "urdu": "ذلت دینے والا",
+    "meaning": "The Dishonourer"
+  },
+  {
+    "arabic": "السَّمِيعُ",
+    "english": "As-Sami",
+    "urdu": "سب کچھ سننے والا",
+    "meaning": "The All-Hearing"
+  },
+  {
+    "arabic": "الْبَصِيرُ",
+    "english": "Al-Baseer",
+    "urdu": "سب کچھ دیکھنے والا",
+    "meaning": "The All-Seeing"
+  },
+  {
+    "arabic": "الْحَكَمُ",
+    "english": "Al-Hakam",
+    "urdu": "فیصلہ کرنے والا",
+    "meaning": "The Judge"
+  },
+  {
+    "arabic": "الْعَدْلُ",
+    "english": "Al-Adl",
+    "urdu": "انصاف کرنے والا",
+    "meaning": "The Most Just"
+  },
+  {
+    "arabic": "اللَّطِيفُ",
+    "english": "Al-Lateef",
+    "urdu": "بڑا مہربان",
+    "meaning": "The Most Gentle"
+  },
+  {
+    "arabic": "الْخَبِيرُ",
+    "english": "Al-Khabeer",
+    "urdu": "ہر چیز سے باخبر",
+    "meaning": "The All-Aware"
+  },
+  {
+    "arabic": "الْحَلِيمُ",
+    "english": "Al-Haleem",
+    "urdu": "بہت بردبار",
+    "meaning": "The Most Forbearing"
+  },
+  {
+    "arabic": "الْعَظِيمُ",
+    "english": "Al-Azeem",
+    "urdu": "بہت عظمت والا",
+    "meaning": "The Magnificent"
+  },
+  {
+    "arabic": "الْغَفُورُ",
+    "english": "Al-Ghafoor",
+    "urdu": "بہت بخشنے والا",
+    "meaning": "The All-Forgiving"
+  },
+  {
+    "arabic": "الشَّكُورُ",
+    "english": "Ash-Shakoor",
+    "urdu": "قدردان",
+    "meaning": "The Most Appreciative"
+  },
+  {
+    "arabic": "الْعَلِيُّ",
+    "english": "Al-Ali",
+    "urdu": "سب سے بلند",
+    "meaning": "The Most High"
+  },
+  {
+    "arabic": "الْكَبِيرُ",
+    "english": "Al-Kabeer",
+    "urdu": "بہت بڑا",
+    "meaning": "The Most Great"
+  },
+  {
+    "arabic": "الْحَفِيظُ",
+    "english": "Al-Hafeez",
+    "urdu": "حفاظت کرنے والا",
+    "meaning": "The Preserver"
+  },
+  {
+    "arabic": "الْمُقِيتُ",
+    "english": "Al-Muqeet",
+    "urdu": "رزق اور قوت دینے والا",
+    "meaning": "The Sustainer"
+  },
+  {
+    "arabic": "الْحَسِيبُ",
+    "english": "Al-Haseeb",
+    "urdu": "حساب لینے والا",
+    "meaning": "The Reckoner"
+  },
+  {
+    "arabic": "الْجَلِيلُ",
+    "english": "Al-Jaleel",
+    "urdu": "بزرگی والا",
+    "meaning": "The Majestic"
+  },
+  {
+    "arabic": "الْكَرِيمُ",
+    "english": "Al-Kareem",
+    "urdu": "بہت کرم کرنے والا",
+    "meaning": "The Most Generous"
+  },
+  {
+    "arabic": "الرَّقِيبُ",
+    "english": "Ar-Raqeeb",
+    "urdu": "نگہبان",
+    "meaning": "The Watchful"
+  },
+  {
+    "arabic": "الْمُجِيبُ",
+    "english": "Al-Mujeeb",
+    "urdu": "دعائیں قبول کرنے والا",
+    "meaning": "The Responsive One"
+  },
+  {
+    "arabic": "الْوَاسِعُ",
+    "english": "Al-Wasi",
+    "urdu": "لامحدود وسعت والا",
+    "meaning": "The All-Encompassing"
+  },
+  {
+    "arabic": "الْحَكِيمُ",
+    "english": "Al-Hakeem",
+    "urdu": "بڑی حکمت والا",
+    "meaning": "The All-Wise"
+  },
+  {
+    "arabic": "الْوَدُودُ",
+    "english": "Al-Wadud",
+    "urdu": "بہت محبت کرنے والا",
+    "meaning": "The Most Loving"
+  },
+  {
+    "arabic": "الْمَجِيدُ",
+    "english": "Al-Majeed",
+    "urdu": "بزرگی اور شان والا",
+    "meaning": "The Most Glorious"
+  },
+  {
+    "arabic": "الْبَاعِثُ",
+    "english": "Al-Ba'ith",
+    "urdu": "دوبارہ زندہ کرنے والا",
+    "meaning": "The Resurrector"
+  },
+  {
+    "arabic": "الشَّهِيدُ",
+    "english": "Ash-Shaheed",
+    "urdu": "ہر چیز پر گواہ",
+    "meaning": "The All-Witnessing"
+  },
+  {
+    "arabic": "الْحَقُّ",
+    "english": "Al-Haqq",
+    "urdu": "برحق",
+    "meaning": "The Truth"
+  },
+  {
+    "arabic": "الْوَكِيلُ",
+    "english": "Al-Wakeel",
+    "urdu": "کارساز",
+    "meaning": "The Trustee"
+  },
+  {
+    "arabic": "الْقَوِيُّ",
+    "english": "Al-Qawiyy",
+    "urdu": "بہت طاقتور",
+    "meaning": "The All-Strong"
+  },
+  {
+    "arabic": "الْمَتِينُ",
+    "english": "Al-Mateen",
+    "urdu": "نہایت مضبوط",
+    "meaning": "The Firm"
+  },
+  {
+    "arabic": "الْوَلِيُّ",
+    "english": "Al-Wali",
+    "urdu": "مددگار اور دوست",
+    "meaning": "The Protecting Friend"
+  },
+  {
+    "arabic": "الْحَمِيدُ",
+    "english": "Al-Hameed",
+    "urdu": "ہر تعریف کے لائق",
+    "meaning": "The Praiseworthy"
+  },
+  {
+    "arabic": "الْمُحْصِي",
+    "english": "Al-Muhsi",
+    "urdu": "ہر چیز کا شمار رکھنے والا",
+    "meaning": "The Reckoner"
+  },
+  {
+    "arabic": "الْمُبْدِئُ",
+    "english": "Al-Mubdi",
+    "urdu": "پہلی بار پیدا کرنے والا",
+    "meaning": "The Originator"
+  },
+  {
+    "arabic": "الْمُعِيدُ",
+    "english": "Al-Mu'id",
+    "urdu": "دوبارہ پیدا کرنے والا",
+    "meaning": "The Restorer"
+  },
+  {
+    "arabic": "الْمُحْيِي",
+    "english": "Al-Muhyi",
+    "urdu": "زندگی دینے والا",
+    "meaning": "The Giver of Life"
+  },
+  {
+    "arabic": "اَلْمُمِيتُ",
+    "english": "Al-Mumeet",
+    "urdu": "موت دینے والا",
+    "meaning": "The Creator of Death"
+  },
+  {
+    "arabic": "اَلْحَيُّ",
+    "english": "Al-Hayy",
+    "urdu": "ہمیشہ زندہ رہنے والا",
+    "meaning": "The Ever-Living"
+  },
+  {
+    "arabic": "اَلْقَيُّومُ",
+    "english": "Al-Qayyum",
+    "urdu": "سب کو قائم رکھنے والا",
+    "meaning": "The Self-Subsisting"
+  },
+  {
+    "arabic": "اَلْوَاجِدُ",
+    "english": "Al-Wajid",
+    "urdu": "ہر چیز پانے والا",
+    "meaning": "The Finder"
+  },
+  {
+    "arabic": "اَلْمَاجِدُ",
+    "english": "Al-Majid",
+    "urdu": "بڑی بزرگی والا",
+    "meaning": "The Most Glorious"
+  },
+  {
+    "arabic": "اَلْوَاحِدُ",
+    "english": "Al-Wahid",
+    "urdu": "ایک ہی",
+    "meaning": "The One"
+  },
+  {
+    "arabic": "اَلْأَحَدُ",
+    "english": "Al-Ahad",
+    "urdu": "یگانہ",
+    "meaning": "The Unique One"
+  },
+  {
+    "arabic": "اَلصَّمَدُ",
+    "english": "As-Samad",
+    "urdu": "بے نیاز",
+    "meaning": "The Eternal Refuge"
+  },
+  {
+    "arabic": "اَلْقَادِرُ",
+    "english": "Al-Qadir",
+    "urdu": "ہر چیز پر قدرت رکھنے والا",
+    "meaning": "The All-Powerful"
+  },
+  {
+    "arabic": "اَلْمُقْتَدِرُ",
+    "english": "Al-Muqtadir",
+    "urdu": "کامل قدرت والا",
+    "meaning": "The Creator of All Power"
+  },
+  {
+    "arabic": "اَلْمُقَدِّمُ",
+    "english": "Al-Muqaddim",
+    "urdu": "آگے کرنے والا",
+    "meaning": "The Expediter"
+  },
+  {
+    "arabic": "اَلْمُؤَخِّرُ",
+    "english": "Al-Mu'akhkhir",
+    "urdu": "پیچھے کرنے والا",
+    "meaning": "The Delayer"
+  },
+  {
+    "arabic": "اَلأَوَّلُ",
+    "english": "Al-Awwal",
+    "urdu": "سب سے پہلا",
+    "meaning": "The First"
+  },
+  {
+    "arabic": "اَلآخِرُ",
+    "english": "Al-Akhir",
+    "urdu": "سب سے آخر",
+    "meaning": "The Last"
+  },
+  {
+    "arabic": "اَلظَّاهِرُ",
+    "english": "Az-Zahir",
+    "urdu": "ظاہر",
+    "meaning": "The Manifest"
+  },
+  {
+    "arabic": "اَلْبَاطِنُ",
+    "english": "Al-Batin",
+    "urdu": "پوشیدہ",
+    "meaning": "The Hidden"
+  },
+  {
+    "arabic": "اَلْوَالِي",
+    "english": "Al-Wali",
+    "urdu": "مالک و نگران",
+    "meaning": "The Sole Governor"
+  },
+  {
+    "arabic": "اَلْمُتَعَالِي",
+    "english": "Al-Muta'ali",
+    "urdu": "سب سے بلند",
+    "meaning": "The Most Exalted"
+  },
+  {
+    "arabic": "اَلْبَرُّ",
+    "english": "Al-Barr",
+    "urdu": "بہت احسان کرنے والا",
+    "meaning": "The Source of Goodness"
+  },
+  {
+    "arabic": "اَلتَّوَّابُ",
+    "english": "At-Tawwab",
+    "urdu": "توبہ قبول کرنے والا",
+    "meaning": "The Accepter of Repentance"
+  },
+  {
+    "arabic": "الْمُنْتَقِمُ",
+    "english": "Al-Muntaqim",
+    "urdu": "بدلہ لینے والا",
+    "meaning": "The Avenger"
+  },
+  {
+    "arabic": "الْعَفُوُّ",
+    "english": "Al-Afuww",
+    "urdu": "بہت معاف کرنے والا",
+    "meaning": "The Pardoner"
+  },
+  {
+    "arabic": "الرَّؤُوفُ",
+    "english": "Ar-Ra'oof",
+    "urdu": "نہایت مہربان",
+    "meaning": "The Most Kind"
+  },
+  {
+    "arabic": "مَالِكُ الْمُلْكِ",
+    "english": "Malik-ul-Mulk",
+    "urdu": "بادشاہی کا مالک",
+    "meaning": "The Owner of All Sovereignty"
+  },
+  {
+    "arabic": "ذُوالْجَلَالِ وَالْإِكْرَامِ",
+    "english": "Dhul-Jalali wal-Ikram",
+    "urdu": "جلال اور عزت والا",
+    "meaning": "The Lord of Majesty and Honour"
+  },
+  {
+    "arabic": "الْمُقْسِطُ",
+    "english": "Al-Muqsit",
+    "urdu": "انصاف کرنے والا",
+    "meaning": "The Most Just"
+  },
+  {
+    "arabic": "الْجَامِعُ",
+    "english": "Al-Jami",
+    "urdu": "سب کو جمع کرنے والا",
+    "meaning": "The Gatherer"
+  },
+  {
+    "arabic": "الْغَنِيُّ",
+    "english": "Al-Ghani",
+    "urdu": "بے نیاز",
+    "meaning": "The Self-Sufficient"
+  },
+  {
+    "arabic": "الْمُغْنِي",
+    "english": "Al-Mughni",
+    "urdu": "غنی کرنے والا",
+    "meaning": "The Enricher"
+  },
+  {
+    "arabic": "الْمَانِعُ",
+    "english": "Al-Mani",
+    "urdu": "روکنے والا",
+    "meaning": "The Withholder"
+  },
+  {
+    "arabic": "الضَّارُّ",
+    "english": "Ad-Darr",
+    "urdu": "ضرر پہنچانے والا",
+    "meaning": "The Creator of Harm"
+  },
+  {
+    "arabic": "النَّافِعُ",
+    "english": "An-Nafi",
+    "urdu": "نفع دینے والا",
+    "meaning": "The Bestower of Benefit"
+  },
+  {
+    "arabic": "النُّورُ",
+    "english": "An-Noor",
+    "urdu": "نور دینے والا",
+    "meaning": "The Light"
+  },
+  {
+    "arabic": "الْهَادِي",
+    "english": "Al-Hadi",
+    "urdu": "ہدایت دینے والا",
+    "meaning": "The Guide"
+  },
+  {
+    "arabic": "الْبَدِيعُ",
+    "english": "Al-Badi",
+    "urdu": "بے مثال پیدا کرنے والا",
+    "meaning": "The Incomparable Originator"
+  },
+  {
+    "arabic": "الْبَاقِي",
+    "english": "Al-Baqi",
+    "urdu": "ہمیشہ باقی رہنے والا",
+    "meaning": "The Everlasting"
+  },
+  {
+    "arabic": "الْوَارِثُ",
+    "english": "Al-Warith",
+    "urdu": "سب کا وارث",
+    "meaning": "The Inheritor"
+  },
+  {
+    "arabic": "الرَّشِيدُ",
+    "english": "Ar-Rasheed",
+    "urdu": "درست راستہ دکھانے والا",
+    "meaning": "The Guide to the Right Path"
+  },
+  {
+    "arabic": "الصَّبُورُ",
+    "english": "As-Saboor",
+    "urdu": "بہت صبر کرنے والا",
+    "meaning": "The Most Patient"
+  }
+
+]

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quran</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>📖 Holy Quran</h1>
+    <button onclick="toggleDarkMode()" id="darkBtn">
+    🌙 Dark Mode
+</button>
+</header>
+
+<div class="container">
+<input type="text" id="searchBox" placeholder="🔍 Search Surah..." class="search-box"> 
+ 
+{% for surah in surahs %}
+
+<a href="/surah/{{ surah }}" style="text-decoration:none; color:black;">
+   <a href="/surah/{{ surah }}"
+   onclick="saveLastRead('{{ surah }}')"
+   style="text-decoration:none; color:black;"> 
+
+<div class="card">
+    <h2>📖 {{ surah }}</h2>
+    <p>Click to Read</p>
+</div>
+
+
+</a>
+
+{% endfor %}
+
+<script>
+const searchBox = document.getElementById("searchBox");
+
+searchBox.addEventListener("keyup", function () {
+
+    let value = this.value.toLowerCase();
+
+    let cards = document.querySelectorAll(".card");
+
+    cards.forEach(function(card){
+
+        let text = card.innerText.toLowerCase();
+
+        if(text.includes(value)){
+            card.parentElement.style.display = "block";
+        } else {
+            card.parentElement.style.display = "none";
+        }
+
+    });
+
+});
+</script>
+<script>
+function saveLastRead(surah){
+    localStorage.setItem("lastRead", surah);
+}
+</script>
+<script>
+function toggleTafseer(id){
+
+    let box = document.getElementById("tafseer" + id);
+
+    if(box.style.display == "none"){
+        box.style.display = "block";
+    }else{
+        box.style.display = "none";
+    }
+
+}
+</script>
+<script>
+
+function toggleDarkMode(){
+
+    document.body.classList.toggle("dark");
+
+    if(document.body.classList.contains("dark")){
+        localStorage.setItem("theme","dark");
+    }else{
+        localStorage.setItem("theme","light");
+    }
+
+}
+
+if(localStorage.getItem("theme")=="dark"){
+    document.body.classList.add("dark");
+}
+
+</script>
+
+</body>
+</html>

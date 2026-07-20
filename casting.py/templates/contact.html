@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact - Noor Academy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>📩 Contact Us</h1>
+    <p>Have a question, suggestion or feedback?</p>
+</header>
+
+<div class="contact-container">
+
+    <form class="contact-card" method="POST" action="/contact">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+
+    <input type="email" name="email" placeholder="Your Email" required>
+
+    <textarea name="message" placeholder="Write your message here..." required></textarea>
+
+    <button type="submit" class="send-btn">
+        📤 Send Feedback
+    </button>
+
+    <p class="thanks">
+        ❤️ JazakAllah Khair for supporting Noor Academy
+    </p>
+
+</form>
+
+
+
+</div>
+
+
+
+
+</div>
+<div class="contact-note">
+
+    <p>
+        If you find any mistake or have any suggestion,
+        please let us know.
+    </p>
+
+    <p>
+        Made with love for the Ummah.
+        May Allah accept this effort. Ameen.
+    </p>
+
+</div>
+<footer>
+
+<h3>🕌 Noor Academy</h3>
+
+<p>© 2026 Noor Academy</p>
+
+</footer>
+
+<script>
+
+function toggleDarkMode(){
+
+    document.body.classList.toggle("dark");
+
+    if(document.body.classList.contains("dark")){
+        localStorage.setItem("theme","dark");
+    }else{
+        localStorage.setItem("theme","light");
+    }
+
+}
+
+if(localStorage.getItem("theme")=="dark"){
+    document.body.classList.add("dark");
+}
+
+</script>
+
+</body>
+</html>
